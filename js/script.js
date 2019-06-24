@@ -160,7 +160,7 @@ $(document).ready(function() {
 	// 02. FULLSCREEN CLASS		
 	//==================================================================================
 	var fullscreen = function(){
-		var fheight = $(window).height();
+		var fheight = $(window).height()*0.7;
 		$('.fullscreen').css("height",fheight);		
 	}
 	
